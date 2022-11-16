@@ -9,7 +9,6 @@
 </head>
 <body>
     <!--
-        bootstrap 5
         underline nav (active, animation)
         about -> home, contact, gallery, about(active)
         nav items center
