@@ -62,6 +62,10 @@ header nav ul li a:hover{
     background-color: rgb(134, 134, 134);
 }
 
+header nav ul li a.active{
+    background-color: grey;
+}
+
 section{
     width: 100%;
     height: auto;
@@ -91,8 +95,4 @@ section .content .text h2{
     color: #008c9e;
     font-size: 50px;
     margin-bottom: 10px;
-}
-
-@media screen and (min-width:410px){
-    
 }

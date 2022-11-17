@@ -27,21 +27,21 @@
                 <a class="leftNav" href="index.php">Nyaka Bence</a>
                 <li><a href="project.php">Projects</a></li>
                 <li><a href="about.php">About</a></li>
-                <li><a href="gallery.php">Gallery</a></li>
+                <li><a class="active" href="gallery.php">Gallery</a></li>
                 <li><a href="contact.php">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <section>
-        <h2>Youtube to MP3</h2>
+        <h2>YOUTUBE TO MP3</h2>
         <div class="first-div">
             <a data-fancybox="gallery" href="media/1.png"><img src="media/1.png"></a>
             <a data-fancybox="gallery" href="media/2.png"><img src="media/2.png"></a>
             <a data-fancybox="gallery" href="media/3.png"><img src="media/3.png"></a>
         </div>
         <hr>
-        <h2>Personal Portfolio</h2>
+        <h2>PERSONAL PORTFOLIO</h2>
         <div>
             <a data-fancybox="gallery" href="media/4.png"><img src="media/4.png"></a>
             <a data-fancybox="gallery" href="media/5.png"><img src="media/5.png"></a>

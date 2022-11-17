@@ -14,7 +14,7 @@ body {
     backdrop-filter: blur(8px);
 }
 .first-div{
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 img {
@@ -82,6 +82,10 @@ header nav ul li a:hover{
     background-color: rgb(134, 134, 134);
 }
 
+header nav ul li a.active{
+    background-color: grey;
+}
+
 h2{
     color: #008c9e;
     font-size: 50px;
@@ -93,4 +97,10 @@ h2{
 hr{
     margin-left: 25%;
     margin-right: 25%;
+}
+
+@media screen{
+    div{
+        display: block;
+    }
 }
