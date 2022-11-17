@@ -16,5 +16,18 @@
         company logo -> nav left side 
         footer -> nav items, copyright, other links(?)
     -->
+    <header>
+        <div class="logo">
+            <img src="media/logo.png" alt="Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="">Projects</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Gallery</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 </body>
 </html>
