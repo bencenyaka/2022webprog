@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-image: url(media/image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    backdrop-filter: blur(8px);
+}
+.first-div{
+    margin-top: 50px;
+}
+
+img {
+    width: 500px;
+    height: 100%;
+    padding: 10px;
+}
+
+.first-div a{
+    width: 500px;
+    height: 100%;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+header{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background: transparent;
+}
+
+header nav{
+    padding: 40px;
+    width: 100%;
+}
+
+header nav ul{
+    text-align: center;
+    justify-content: center;
+}
+
+header nav ul li{
+    list-style: none;
+    padding: 0 50px 0 50px;
+    display: inline-block;
+}
+
+header nav ul .leftNav{
+    letter-spacing: 2px;
+    color: #ffff;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    display: inline-block;
+    text-align: left;
+}
+
+header nav ul li a{
+    color: #ffff;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+
+header nav ul li a:hover{
+    background-color: rgb(134, 134, 134);
+}
+
+h2{
+    color: #008c9e;
+    font-size: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 30px;
+}
