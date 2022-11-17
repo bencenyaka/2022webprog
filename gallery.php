@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Website - Gallery</title>
     <link rel="stylesheet" href="style2.css">
     <!-- Fancybox and Jquery CDN
     This link get github repository -->
@@ -40,6 +40,7 @@
             <a data-fancybox="gallery" href="media/2.png"><img src="media/2.png"></a>
             <a data-fancybox="gallery" href="media/3.png"><img src="media/3.png"></a>
         </div>
+        <hr>
         <h2>Personal Portfolio</h2>
         <div>
             <a data-fancybox="gallery" href="media/4.png"><img src="media/4.png"></a>
