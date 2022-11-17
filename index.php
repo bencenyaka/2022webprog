@@ -17,17 +17,26 @@
         footer -> nav items, copyright, other links(?)
     -->
     <header>
-        <div class="logo">
-            <img src="media/logo.png" alt="Logo">
-        </div>
         <nav>
             <ul>
-                <li><a href="">Projects</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Gallery</a></li>
-                <li><a href="">Contact</a></li>
+                <a class="leftNav" href="index.php">Nyaka Bence</a>
+                <li><a href="project.php">Projects</a></li>
+                <li><a href="about.php">About</a></li>
+                <li><a href="gallery.php">Gallery</a></li>
+                <li><a href="contact.php">Contact</a></li>
             </ul>
         </nav>
     </header>
+
+    <section>
+        <div class="content">
+            <div class="text">
+                <h4>Lorem ipsum</h4>
+                <h2>Lorem ipsum sit damet<h2>
+                <h4>Lorem ipsum sit</h4>
+            </div>
+        </div>
+    </section>
+
 </body>
 </html>
