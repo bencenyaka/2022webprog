@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website - Gallery</title>
-    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="res/style2.css">
     <!-- Fancybox and Jquery CDN
     This link get github repository -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
