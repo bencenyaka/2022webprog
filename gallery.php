@@ -15,8 +15,7 @@
 <body style="background-image: url(media/image6.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: black;
-    backdrop-filter: blur(5px);">
+    background-color: black;">
     <!--
         underline nav (active, animation)
         index -> home, contact, gallery(active), about

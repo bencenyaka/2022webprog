@@ -7,11 +7,10 @@
     font-family: 'Poppins', sans-serif;
 }
 body {
-    background-image: url(media/image.jpg);
+    background-image: url(media/image6.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-color: black;
-    backdrop-filter: blur(8px);
 }
 .first-div{
     margin-top: 30px;
