@@ -12,6 +12,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-color: black;
+    backdrop-filter: blur(5px);
 }
 
 header{
@@ -95,4 +96,25 @@ section .content .text h2{
     color: #008c9e;
     font-size: 50px;
     margin-bottom: 10px;
+}
+
+.project-div{
+    color: #ffff;
+    margin: 50px 100px 100px 100px;
+}
+
+.project-div h2{
+    color: #008c9e;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+hr{
+    margin-right:65%;
+}
+
+br{
+    display: block;
+    margin: 20px 0;
+    content: " ";
 }

@@ -12,7 +12,11 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"/>
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 </head>
-<body>
+<body style="background-image: url(media/image6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    backdrop-filter: blur(5px);">
     <!--
         underline nav (active, animation)
         index -> home, contact, gallery(active), about
