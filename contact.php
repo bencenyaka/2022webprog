@@ -7,7 +7,7 @@
     <title>Website - Contact</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body style="background-image: url(media/image7.jpg);
+<body style="background-image: url(media/image-7.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-color: black;">

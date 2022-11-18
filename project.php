@@ -7,11 +7,10 @@
     <title>Website - Projects</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body style="background-image:url(media/imag5.jpg);
+<body style="background-image:url(media/image5.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: black;
-    backdrop-filter: blur(5px);">
+    background-color: black;">
     <!--
         underline nav (active, animation)
         index -> home, contact(active), gallery, about
