@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website - Contact</title>
-    <link rel="stylesheet" href="res/style.css?=version=51">
+    <link rel="stylesheet" href="res/style.css">
 </head>
 <body style="background-image: url(media/image-7.jpg);
     background-size: cover;
