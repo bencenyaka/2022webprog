@@ -112,7 +112,6 @@ section .content .text h2{
 
 .about-div{
     color: #ffff;
-    margin: 100px 100px 100px 100px;
     text-align: center;
     justify-content: center;
 }
@@ -121,6 +120,20 @@ section .content .text h2{
     color: #008c9e;
     font-size: 50px;
     margin-bottom: 5px;
+}
+
+.about-content{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 100px 100px 100px;
+}
+
+.about-img{
+    margin-left: 40px;
+}
+
+.about-img img{
+    max-width: 500px;
 }
 
 hr{

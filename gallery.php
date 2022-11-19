@@ -38,13 +38,15 @@
 
     <section>
         <h2>YOUTUBE TO MP3</h2>
+        <hr>
         <div class="gal-div">
             <a data-fancybox="gallery" href="media/1.png"><img src="media/1.png"></a>
             <a data-fancybox="gallery" href="media/2.png"><img src="media/2.png"></a>
             <a data-fancybox="gallery" href="media/3.png"><img src="media/3.png"></a>
         </div>
-        <hr>
+        
         <h2>PERSONAL PORTFOLIO</h2>
+        <hr>
         <div class="gal-div">
             <a data-fancybox="gallery" href="media/4.png"><img src="media/4.png"></a>
             <a data-fancybox="gallery" href="media/5.png"><img src="media/5.png"></a>
