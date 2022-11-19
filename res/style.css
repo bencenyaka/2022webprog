@@ -104,6 +104,12 @@ section .content .text h2{
     margin-bottom: 5px;
 }
 
+.project-div a{
+    color: #008c9e;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
 .about-div{
     color: #ffff;
     margin: 100px 100px 100px 100px;
@@ -213,5 +219,20 @@ br{
             font-size: 50px;
             margin-bottom: 5px;
             text-align: center;
-            margin-top: 20px;
+            margin-top: 0px;
         }
+
+footer div{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+footer div a img{
+    width: 30px;
+    height: auto;
+    padding: 10px;
+}

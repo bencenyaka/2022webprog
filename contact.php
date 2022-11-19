@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website - Contact</title>
-    <link rel="stylesheet" href="res/style.css">
+    <link rel="stylesheet" href="res/style.css?=version=51">
 </head>
 <body style="background-image: url(media/image-7.jpg);
     background-size: cover;
@@ -61,5 +61,13 @@
             </form>
         </div>
     </section>
+    <footer>
+        <div>
+            <a href="https://www.facebook.com/"><img src="media/facebook.png" alt=""></a>
+            <a href="https://www.instagram.com"><img src="media/instagram.png" alt=""></a>
+            <a href="https://twitter.com"><img src="media/twitter.png" alt=""></a>
+            <a href="https://www.linkedin.com"><img src="media/linkedin.png" alt=""></a>
+        </div>
+    </footer>
 </body>
 </html>
