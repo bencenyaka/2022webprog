@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website - Gallery</title>
-    <link rel="stylesheet" href="res/style2.css">
+    <link rel="stylesheet" href="res/style2.css?version=2">
     <!-- Fancybox and Jquery CDN
     This link get github repository -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
@@ -38,14 +38,14 @@
 
     <section>
         <h2>YOUTUBE TO MP3</h2>
-        <div class="first-div">
+        <div class="gal-div">
             <a data-fancybox="gallery" href="media/1.png"><img src="media/1.png"></a>
             <a data-fancybox="gallery" href="media/2.png"><img src="media/2.png"></a>
             <a data-fancybox="gallery" href="media/3.png"><img src="media/3.png"></a>
         </div>
         <hr>
         <h2>PERSONAL PORTFOLIO</h2>
-        <div>
+        <div class="gal-div">
             <a data-fancybox="gallery" href="media/4.png"><img src="media/4.png"></a>
             <a data-fancybox="gallery" href="media/5.png"><img src="media/5.png"></a>
             <a data-fancybox="gallery" href="media/6.png"><img src="media/6.png"></a>
