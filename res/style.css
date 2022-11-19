@@ -120,10 +120,11 @@ section .content .text h2{
     color: #008c9e;
     font-size: 50px;
     margin-bottom: 5px;
+    text-align: center;
 }
 
 .about-content{
-    display: flex;
+    display: block;
     justify-content: space-between;
     margin: 100px 100px 100px 100px;
 }
@@ -133,7 +134,7 @@ section .content .text h2{
 }
 
 .about-img img{
-    max-width: 500px;
+    max-width: 100%;
 }
 
 hr{

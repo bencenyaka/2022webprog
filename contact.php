@@ -63,10 +63,10 @@
     </section>
     <footer>
         <div>
-            <a href="https://www.facebook.com/"><img src="media/facebook.png" alt=""></a>
-            <a href="https://www.instagram.com"><img src="media/instagram.png" alt=""></a>
-            <a href="https://twitter.com"><img src="media/twitter.png" alt=""></a>
-            <a href="https://www.linkedin.com"><img src="media/linkedin.png" alt=""></a>
+            <a href="https://www.facebook.com/" target="blank"><img src="media/facebook.png" alt=""></a>
+            <a href="https://www.instagram.com" target="blank"><img src="media/instagram.png" alt=""></a>
+            <a href="https://twitter.com" target="blank"><img src="media/twitter.png" alt=""></a>
+            <a href="https://www.linkedin.com" target="blank"><img src="media/linkedin.png" alt=""></a>
         </div>
     </footer>
 </body>

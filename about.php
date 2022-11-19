@@ -43,9 +43,6 @@
                     Nulla lacinia condimentum augue, et vulputate lorem venenatis eget. Ut ac dapibus quam. Cras eu magna tempor, iaculis dui nec, vulputate magna. Sed a felis sed odio varius euismod. Etiam purus dolor, condimentum non ornare in, malesuada at leo. Integer sed egestas turpis. Vivamus faucibus, magna id hendrerit.
                 </p>
             </div>
-            <div class="about-img">
-                <img src="media/bg3.jpg" alt="About">
-            </div>
         </div>
     </section>
 </body>
