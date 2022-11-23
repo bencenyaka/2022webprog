@@ -56,7 +56,7 @@
                     <p><sup><span>*</span><span>mandatory</span></sup></p>
                 </div>
                 <div style="text-align:center;">
-                    <button>Küldés</button>
+                    <button>SEND</button>
                 </div>
             </form>
         </div>
