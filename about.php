@@ -37,10 +37,10 @@
                 <h2>ABOUT ME/US</h2>
                 <hr style="margin-left:25%;margin-right:25%;">
                 <?php 
-                
-                $text= file_get_contents("text/about.txt");
-                echo'
-                <p>'. $text .'</p>';
+
+                    $text= file_get_contents("text/about.txt");
+                    echo '<p>'. $text .'</p>';
+
                 ?>
             </div>
         </div>
