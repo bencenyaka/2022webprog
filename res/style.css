@@ -205,23 +205,27 @@ br{
 		}
 		#content p.success
 		{
-			background: #e6ebe1;
-			color: #82aa73;
-			border: 1px solid #d2e1cd;
-			padding-left: 2%;
-			padding-right: 2%;
+			background: #d4edbb;
+			color: #6cab56;
+			border: 3px solid #beddb4;
+			padding-left: 10px;
+			padding-right: 10px;
 			padding-top: 10px;
 			padding-bottom: 10px;
+            margin-left: 25%;
+            margin-right: 25%;
 		}
 		#content p.error
 		{
-			background: #ece0e0;
-			color: #a97171;
-			border: 1px solid #e1cece;
-			padding-left: 2%;
-			padding-right: 2%;
+			background: #e7c3c3;
+			color: #ac5f5f;
+			border: 3px solid #df7e7e;
+			padding-left: 10px;
+			padding-right: 10px;
 			padding-top: 10px;
 			padding-bottom: 10px;
+            margin-left: 25%;
+            margin-right: 25%;
 		}
 
         #content span{
