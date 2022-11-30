@@ -35,7 +35,45 @@
         <div class="contact-div">
             <h2>Contact</h2>
             <hr style="margin-left:30%;margin-right:30%;">
-            <form method="post" action="mailto:nyakabence03@gmail.com">
+            <?php
+                                                
+                                                $dbname = "database";
+                                                $dbUser = "admin";
+                                                $dbPsw = "admin";
+                                                
+                                                $dsn = "mysql:host=localhost;dbname=" . $dbname . ";charset=utf8mb4";
+                                                $pdo = new PDO($dsn, $dbUser, $dbPsw);
+                                                
+                                                
+                                                if(isset($_POST["sendEmail"]))
+                                                {
+                                                    $name = trim($_POST["name"]);
+                                                    $email = trim($_POST["email"]);
+                                                    $message = trim($_POST["message"]); 
+                                                    
+                                                    if(strlen($name) > 1 && strlen($email) > 5 && $message)
+                                                    {
+                                                        
+                                                        $sql = "INSERT INTO customerbook VALUES(NULL, :name, :email, :phone_number, :message, 0)";
+                                                        
+                                                        $query = $pdo->prepare($sql);
+                                                        $query->execute([
+                                                            'name' => $name,
+                                                            'email' => $email,
+                                                            'phone_number' => $_POST["phone_number"],
+                                                            'message' => $message,
+                                                        ]);
+                                                    
+                                                    echo '<p class="success">Sikeresen kitöltés.</p>';
+						                            }
+                                                    
+                                                    else{
+                                                        echo '<p class="error">Hibás kitöltés.</p>';    
+                                                    }
+                                                    
+                                                }
+                                                ?>
+            <form method="post" action="mailto:somebody@host.com">
                 <div>
                     <label for="inName">Full name:<span>*</span></label>
                     <input type="text">
