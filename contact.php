@@ -28,65 +28,88 @@
             <h2>Contact</h2>
             <hr style="margin-left:30%;margin-right:30%;">
             <?php
-                                                
-                $dbname = "database";
-                $dbUser = "admin";
-                $dbPsw = "admin";
-                
-                $dsn = "mysql:host=localhost;dbname=" . $dbname . ";charset=utf8mb4";
-                $pdo = new PDO($dsn, $dbUser, $dbPsw);
-                
-                
-                if(isset($_POST["sendAll"]))
+
+                $databaseName = "database";
+                $databaseUser = "admin";
+                $databasePsw = "admin";
+                            
+                $dsn = "mysql:host=localhost;dbname=". $databaseName .";charset=utf8mb4";
+                $db = new PDO($dsn, $databaseUser, $databasePsw);
+
+                $valName = "";
+                $valEmail = "";
+                $valMessage = "";
+
+                if(isset($_POST['sendMessage']))
                 {
-                    $name = trim($_POST["name"]);
-                    $email = trim($_POST["email"]);
-                    $message = trim($_POST["message"]); 
-                    
-                    if(strlen($name) > 1 && strlen($email) > 5 && $message)
+                    $name = trim($_POST['name']);
+                    $email = trim($_POST['email']);
+                    $phone_number = ($_POST['phone_number']);
+                    $message = trim($_POST['message']);
+
+                    $error = false;
+
+                    if(strlen($name) < 1)
                     {
-                        
+                        $error = "Please fill it with your name.";
+                    }
+                    if(strlen($email) < 1)
+                    {
+                        $error = "Please fill it with your email.";
+                    }
+                    if(strlen($message) < 1)
+                    {
+                        $error = "Please fill it with your message.";
+                    }
+
+                    if($error)
+                    {
+                        $valName = $name;
+                        $valEmail = $email;
+                        $valMessage = $message;
+
+                        echo '<p class="error">Error! '.$error.'</p>';
+                    }
+                    else
+                    {
                         $sql = "INSERT INTO data VALUES(NULL, :name, :email, :phone_number, :message)";
-                        
-                        $query = $pdo->prepare($sql);
-                        $query->execute([
+                        $values = [
                             'name' => $name,
                             'email' => $email,
-                            'phone_number' => $_POST["phone_number"],
+                            'phone_number' => $phone_number,
                             'message' => $message,
-                        ]);
-                    
-                        echo '<p class="success">Succesful filling.</p>';
+                        ];
+
+                        $query = $db->prepare($sql);
+                        $query->execute($values);
+
+                        echo '<p class="success">Successful filling.</p>';
                     }
-                    
-                    else{
-                        echo '<p class="error">Unsuccessful filling.</p>';    
-                    }
-                    
                 }
+
             ?>
-            <form method="post">
+            <form method="post" action="contact.php">
                 <div>
                     <label for="inName">Full name:<span>*</span></label>
-                    <input type="text">
+                    <input type="text" name="name" placeholder="Some Body...">
                 </div>
                 <div>
                     <label for="inEmail">Email:<span>*</span></label>
-                    <input type="text">
+                    <input type="email" name="email" placeholder="somebody@host.com">
                 </div>
                 <div>
                     <label for="InPhonenumber">Phone number:</label>
-                    <input type="text">
+                    <input type="number" name="phone_number" placeholder="01234567891...">
                 </div>
                 <div>
                     <label for="InMessage">Message:<span>*</span></label>
-                    <textarea type="text"></textarea>
+                    <textarea type="text"  name="message" placeholder="Put your message here."></textarea>
                 </div>
                 <div>
                     <p><sup><span>*</span><span>mandatory</span></sup></p>
                 </div>
                 <div style="text-align:center;">
-                    <button name="sendAll">SEND</button>
+                    <button name="sendMessage">SEND</button>
                 </div>
             </form>
         </div>
