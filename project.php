@@ -21,15 +21,7 @@
         https://blog.hubspot.com/service/best-contact-us-pages
     -->
     <header>
-        <nav>
-            <ul>
-                <a class="leftNav" href="index.php">Nyaka Bence</a>
-                <li><a class="active" href="project.php">Projects</a></li>
-                <li><a href="about.php">About</a></li>
-                <li><a href="gallery.php">Gallery</a></li>
-                <li><a href="contact.php">Contact</a></li>
-            </ul>
-        </nav>
+        <?php include("res/navigation.php"); ?>
     </header>
 
     <section>
@@ -43,6 +35,8 @@
                 echo'
                 <p>'. $text .'</p>';
             ?>
+
+            <p>Keywords: <span>HTML</span><span>CSS</span><span>Javascript</span><span>Express</span><span>Node.JS</span></p>
             
             <p>See this project: <a href="https://beny-youtube2mp3vid.herokuapp.com/" target="blank">here</a></p>
         </div>
@@ -55,8 +49,10 @@
                 echo'
                 <p>'. $text .'</p>';
             ?>
+
+            <p>Keywords: <span>HTML</span><span>CSS</span><span>Javascript</span></p>
             
-            <p>See this project: <a href="gallery.php#gallery-4" target="blank">here</a></p>
+            <p>See this project: <a href="https://bencenyaka.github.io/personal_portfilio/" target="blank">here</a></p>
         </div>
     </section>
 </body>
