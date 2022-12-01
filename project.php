@@ -52,7 +52,7 @@
 
             <p>Keywords: <span>HTML</span><span>CSS</span><span>Javascript</span></p>
             
-            <p>See this project: <a href="https://bencenyaka.github.io/personal_portfilio/" target="blank">here</a></p>
+            <p>See this project: <a href="https://bencenyaka.github.io/personal_portfolio/" target="blank">here</a></p>
         </div>
     </section>
 </body>

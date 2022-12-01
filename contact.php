@@ -56,11 +56,11 @@
                             'message' => $message,
                         ]);
                     
-                    echo '<p class="success">Sikeres kitöltés.</p>';
+                        echo '<p class="success">Succesful filling.</p>';
                     }
                     
                     else{
-                        echo '<p class="error">Hibás kitöltés.</p>';    
+                        echo '<p class="error">Unsuccessful filling.</p>';    
                     }
                     
                 }
