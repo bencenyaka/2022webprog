@@ -87,7 +87,7 @@
                     <input type="text">
                 </div>
                 <div>
-                    <label for="InMessage">Message:</label>
+                    <label for="InMessage">Message:<span>*</span></label>
                     <textarea type="text"></textarea>
                 </div>
                 <div>
