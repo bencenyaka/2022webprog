@@ -6,12 +6,7 @@
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
-body {
-    background-image: url(media/image6.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: black;
-}
+
 .gal-div{
     margin-top: 30px;
     display: flex;
@@ -99,10 +94,4 @@ h2{
 hr{
     margin-left: 25%;
     margin-right: 25%;
-}
-
-@media screen{
-    div{
-        display: block;
-    }
 }

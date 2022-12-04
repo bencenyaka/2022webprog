@@ -7,7 +7,7 @@
     <title>Website - About</title>
     <link rel="stylesheet" href="res/style.css">
 </head>
-<body style="background-image: url(media/image4.jpg); background-size: cover; background-repeat: no-repeat; background-color: black;">
+<body style="background-image: url(media/image-8.jpg); background-size: cover; background-repeat: no-repeat; background-color: black;">
 
     <header>
         <?php include("res/navigation.php"); ?>
