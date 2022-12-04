@@ -7,18 +7,8 @@
     <title>Website</title>
     <link rel="stylesheet" href="res/style.css">
 </head>
-<body style="background-image: url(media/image-1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: black;">
-    <!--
-        animation of changing between pages (slide from right to left (blue color))
-        underline nav (active, animation)
-        index -> home(active, logo), projects, contact, gallery(fancybox), about
-        nav items center
-        company logo -> nav left side 
-        footer -> nav items, copyright, other links(?)
-    -->
+<body style="background-image: url(media/image-1.jpg); background-size: cover; background-repeat: no-repeat; background-color: black;">
+
     <header>
         <?php include("res/navigation.php"); ?>
     </header>

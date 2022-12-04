@@ -7,19 +7,8 @@
     <title>Website - Projects</title>
     <link rel="stylesheet" href="res/style.css">
 </head>
-<body style="background-image:url(media/image5.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: black;">
-    <!--
-        underline nav (active, animation)
-        index -> home, contact(active), gallery, about
-        nav items center
-        company logo -> nav left side 
-        footer -> nav items, copyright, other links(?)
-        contacts: phonenumber, email, place
-        https://blog.hubspot.com/service/best-contact-us-pages
-    -->
+<body style="background-image:url(media/image5.jpg); background-size: cover; background-repeat: no-repeat; background-color: black;">
+
     <header>
         <?php include("res/navigation.php"); ?>
     </header>

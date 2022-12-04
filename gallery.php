@@ -6,24 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website - Gallery</title>
     <link rel="stylesheet" href="res/gallery.css">
-    <!-- Fancybox and Jquery CDN
-    This link get github repository -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"/>
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 </head>
-<body style="background-image: url(media/image-6.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: black;">
-    <!--
-        underline nav (active, animation)
-        index -> home, contact, gallery(active), about
-        nav items center
-        company logo -> nav left side 
-        footer -> nav items, copyright, other links(?)
-        gallery items -> fancybox (https://fancyapps.com/fancybox/)
-    -->
+<body style="background-image: url(media/image-6.jpg); background-size: cover; background-repeat: no-repeat; background-color: black;">
+    
     <header>
         <?php include("res/navigation.php"); ?>
     </header>

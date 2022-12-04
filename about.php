@@ -7,18 +7,8 @@
     <title>Website - About</title>
     <link rel="stylesheet" href="res/style.css">
 </head>
-<body style="background-image: url(media/image4.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: black;">
-    <!--
-        underline nav (active, animation)
-        about -> home, contact, gallery, about(active)
-        nav items center
-        company logo -> nav left side 
-        h2 -> p -> img -> p end
-        footer -> nav items, copyright, other links(?)
-    -->
+<body style="background-image: url(media/image4.jpg); background-size: cover; background-repeat: no-repeat; background-color: black;">
+
     <header>
         <?php include("res/navigation.php"); ?>
     </header>   
