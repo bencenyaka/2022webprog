@@ -104,6 +104,7 @@ section .content .text h2{
     color: #008c9e;
     text-decoration: none;
     text-transform: uppercase;
+    font-weight: bold; 
 }
 
 .project-div p span{
