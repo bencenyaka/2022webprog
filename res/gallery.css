@@ -61,21 +61,31 @@ header nav ul .leftNav{
 }
 
 header nav ul li a{
-    color: #ffff;
+    color: rgb(210, 210, 210);
     font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
     padding: 10px 20px;
-    border-radius: 20px;
-    transition: 0.4s;
+    position: relative;
+}
+
+header nav ul li a:after{
+    content: "";
+    position: absolute;
+    background-color: #008c9e;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -1px;
+    transition: 0.3s;
 }
 
 header nav ul li a:hover{
-    background-color: grey;
+    color: #ffff;
 }
 
-header nav ul li a.active{
-    background-color: grey;
+header nav ul li a:hover:after{
+    width: 100%;
 }
 
 h2{
