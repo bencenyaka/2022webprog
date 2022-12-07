@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 
+@keyframes transitionIn {
+    from{
+        opacity: 0;
+        transform: rotateX(-5deg);
+    }
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
 *{
     margin-top: 0;
     font-family: 'Poppins', sans-serif;
@@ -8,6 +19,7 @@
 body{
     margin: 0;
     padding: 0;
+    animation: transitionIn 0.8s;
 }
 
 header{
@@ -75,7 +87,7 @@ header nav ul li a:hover:after{
 section{
     width: 100%;
     height: auto;
-    position: relative;
+    position: relative; 
 }
 
 section .content{
@@ -131,6 +143,9 @@ section .content .text h2{
     color: #ffff;
     text-align: center;
     justify-content: center;
+    background: rgb(0,0,0,0.5);
+    padding: 10px;
+    border-radius: 20px;
 }
 
 .about-div h2{

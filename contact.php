@@ -87,7 +87,7 @@
                     <input type="email" name="email" placeholder="somebody@host.com">
                 </div>
                 <div>
-                    <label for="InPhonenumber">Phone number:</label>
+                    <label for="InPhonenumber">Phone number: <span style="font-weigth: bold; font-size: 10px; color: #ffff;">(optional)</span></label>
                     <input type="number" name="phone_number" placeholder="01234567891...">
                 </div>
                 <div>
