@@ -3,11 +3,9 @@
 @keyframes transitionIn {
     from{
         opacity: 0;
-        transform: rotateX(-5deg);
     }
     to{
         opacity: 1;
-        transform: rotateX(0);
     }
 }
 
@@ -19,7 +17,6 @@
 body{
     margin: 0;
     padding: 0;
-    animation: transitionIn 0.8s;
 }
 
 header{
@@ -88,6 +85,7 @@ section{
     width: 100%;
     height: auto;
     position: relative; 
+    animation: transitionIn 0.8s;
 }
 
 section .content{
@@ -118,6 +116,7 @@ section .content .text h2{
 .project-div{
     color: #ffff;
     margin: 50px 100px 100px 100px;
+    animation: transitionIn 0.8s;
 }
 
 .project-div h2{
@@ -146,6 +145,7 @@ section .content .text h2{
     background: rgb(0,0,0,0.5);
     padding: 10px;
     border-radius: 20px;
+    animation: transitionIn 0.8s;
 }
 
 .about-div h2{
@@ -179,6 +179,7 @@ br{
         color: #ffff;
         margin: 0 25% 0 25%;
         border-radius: 10px;
+        animation: transitionIn 0.8s;
 	}
 		#content form label
 		{
