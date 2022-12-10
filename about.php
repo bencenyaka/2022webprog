@@ -16,7 +16,7 @@
     <section>
         <div class="about-content">
             <div class="about-div">
-                <h2>ABOUT ME/US</h2>
+                <h2>ABOUT US</h2>
                 <hr style="margin-left:25%;margin-right:25%;">
                 <?php 
 

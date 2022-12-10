@@ -16,9 +16,9 @@
     <section>
         <div class="content">
             <div class="text">
+                <h4>Welcome,</h4>
+                <h2>Lorem ipsum sit<h2>
                 <h4>Lorem ipsum</h4>
-                <h2>Lorem ipsum sit damet<h2>
-                <h4>Lorem ipsum sit</h4>
             </div>
         </div>
     </section>
